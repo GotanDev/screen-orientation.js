@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Screen Resolution Example</title>
+</head>
+<body>
+
+<div>
+    Angle: <span id="angle"></span><br />
+    Mode: <span id="mode"></span>
+</div>
+<script type="text/javascript" src="screen-resolution.js"></script>
+
+<script type="text/javascript">
+    screenorientation()
+        // Event listener on screen orientation change
+        .change(function(so){
+            document.getElementById("angle").textContent = so.angle() + "°";
+            document.getElementById("mode").textContent = so.isLandscape() ? "landscape" : "portrait" ;
+        })
+        // Trigger manually the change event on first load
+        .change();
+</script>
+
+</body>
+</html>

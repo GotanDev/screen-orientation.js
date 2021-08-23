@@ -1,0 +1,15 @@
+{
+  "name": "screen-resolution",
+  "version": "0.1",
+  "description": "Cross-browser screen resolution management in JS",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/GotanDev/screen.js.git"
+  },
+  "author": "Damien Cuvillier <damien.cuvillier@gotan.io>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "main": "screen-resolution.js"
+}

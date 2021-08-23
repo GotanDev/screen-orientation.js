@@ -1,5 +1,5 @@
 {
-  "name": "screen-resolution",
+  "name": "screen-rotation.js",
   "version": "0.1.0",
   "description": "Cross-browser screen resolution management in JS",
   "scripts": {},
@@ -10,5 +10,5 @@
   "author": "Damien Cuvillier <damien.cuvillier@gotan.io>",
   "license": "MIT",
   "readmeFilename": "README.md",
-  "main": "screen-resolution.js"
+  "main": "screen-rotation.js"
 }

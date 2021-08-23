@@ -1,0 +1,19 @@
+{
+    "name": "gotan/screen-rotation.js",
+    "description": "Cross-browser screen rotation management in JS",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Gotan\\ScreenRotationJs\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Damien Cuvillier",
+            "email": "damien.cuvillier@gotan.io"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}

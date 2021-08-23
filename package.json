@@ -1,7 +1,7 @@
 {
   "name": "screen-rotation.js",
-  "version": "0.1.0",
-  "description": "Cross-browser screen resolution management in JS",
+  "version": "0.1.1",
+  "description": "Cross-browser screen rotation management in JS",
   "scripts": {},
   "repository": {
     "type": "git",

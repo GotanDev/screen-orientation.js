@@ -7,7 +7,7 @@ npm install screen-resolution.js
 
 ## Usage
 
-Full example on 
+Full example on [CodePen](https://codepen.io/damiencuvillier/pen/wvevKPa)
 
 ### Initialization
 

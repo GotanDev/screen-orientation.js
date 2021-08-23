@@ -53,9 +53,6 @@ so.isPortrait()
 
 ```
 
-
-
-
 ### License
 
 MIT License

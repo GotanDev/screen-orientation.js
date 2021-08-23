@@ -1,8 +1,8 @@
 /** Tools for screen orientation in web app
  *
+ * @see https://github.com/GotanDev/screen-rotation.js
  * @author Damien Cuvillier <damien.cuvillier@gotan.io>
  * @licence MIT
- *
  */
 var screenorientation = (function() {
     /** Listeners lists on orientation change event */

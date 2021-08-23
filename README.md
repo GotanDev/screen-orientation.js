@@ -1,4 +1,4 @@
-# screen.js
+# screen-rootation.js
 Cross browser screen rotation management in pure vanilla javascript
 
 ## Installation 

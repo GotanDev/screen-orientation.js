@@ -1,12 +1,11 @@
 {
   "name": "screen-resolution",
-  "version": "0.1",
+  "version": "0.1.0",
   "description": "Cross-browser screen resolution management in JS",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git://github.com/GotanDev/screen.js.git"
+    "url": "git://github.com/GotanDev/screen-rotation.js.git"
   },
   "author": "Damien Cuvillier <damien.cuvillier@gotan.io>",
   "license": "MIT",

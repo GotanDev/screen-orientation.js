@@ -1,4 +1,5 @@
-/** Tools for screen orientation in web app
+/*!
+ * Tools for screen orientation in web .
  *
  * @see https://github.com/GotanDev/screen-rotation.js
  * @author Damien Cuvillier <damien.cuvillier@gotan.io>
@@ -9,9 +10,9 @@ var screenorientation = (function() {
     screenOrientationChangeListenerCallbacks = [];
 
 
-    /**  Detect screen orientation change.
+    /*  Detect screen orientation change.
      * Calls all declared callbacks.
-     **/
+     */
     function detectScreenOrientationChange() {
         if (navigator.userAgent.indexOf('Safari') !== -1) {
             window.matchMedia("(orientation: portrait)").addListener(triggerOrientationChange)

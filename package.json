@@ -1,14 +1,19 @@
 {
-  "name": "screen-rotation.js",
-  "version": "0.1.2",
-  "description": "Cross-browser screen rotation management in JS",
-  "scripts": {},
+  "name": "screen-orientation.js",
+  "version": "0.1.3",
+  "description": "Cross-browser screen orientation management in JS",
+  "scripts": {
+        "minify": "uglifyjs screen-orientation.js -c -m --comments '/(^!|@license|@preserve)/' --output screen-orientation.min.js"
+  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/GotanDev/screen-rotation.js.git"
+    "url": "git://github.com/GotanDev/screen-orientation.js.git"
   },
   "author": "Damien Cuvillier <damien.cuvillier@gotan.io>",
   "license": "MIT",
   "readmeFilename": "README.md",
-  "main": "screen-rotation.js"
+  "main": "screen-orientation.js",
+  "devDependencies": {
+    "uglify-js": "^3.14.1"
+  }
 }

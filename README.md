@@ -1,20 +1,20 @@
-# screen-rotation.js
+# screen-orientation.js
 Cross browser screen rotation management in pure vanilla javascript
 
 ## Installation 
 
 * NPM
     ```
-    npm install screen-resolution.js
+    npm install screen-orientation.js
     ```
 * Composer
     ```
-    composer require gotan/screen-rotation.js
+    composer require gotan/screen-orientation.js
     ```
   
 * Bower (deprecated)
     ```
-    bower install gotandev/screen-rotation.js
+    bower install gotandev/screen-orientation.js
     ```
 
 ## Usage

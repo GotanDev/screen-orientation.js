@@ -1,8 +1,8 @@
 {
-    "name": "gotan/screen-rotation.js",
-    "description": "Cross-browser screen rotation management in JS",
+    "name": "gotan/screen-orientation.js",
+    "description": "Cross-browser screen orientation management in JS",
     "type": "library",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "license": "MIT",
     "autoload": {
         "psr-4": {

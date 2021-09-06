@@ -1,5 +1,5 @@
 {
-  "name": "screen-orientation.js",
+  "name": "@kptn/screen-orientation",
   "version": "0.1.3",
   "description": "Cross-browser screen orientation management in JS",
   "scripts": {

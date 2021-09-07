@@ -1,11 +1,17 @@
 /*!
  * Tools for screen orientation in web .
  *
- * @see https://github.com/GotanDev/screen-rotation.js
+ * @see https://github.com/GotanDev/screen-orientation.js
  * @author Damien Cuvillier <damien.cuvillier@gotan.io>
  * @licence MIT
  */
+
+var __screenOrientationSingleton = null;
 var screenorientation = (function() {
+    if (__screenOrientationSingleton !== null) {
+        return __screenOrientationSingleton;
+    }
+
     /** Listeners lists on orientation change event */
     screenOrientationChangeListenerCallbacks = [];
 
@@ -94,8 +100,9 @@ var screenorientation = (function() {
         'change': onchange
     }
 
+    __screenOrientationSingleton = _self;
     return _self;
-})
+});
 
 
 
